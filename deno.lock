@@ -1,0 +1,62 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@*": "4.7.2",
+    "jsr:@std/assert@1": "1.0.11",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "npm:@types/node@*": "22.12.0"
+  },
+  "jsr": {
+    "@hono/hono@4.7.2": {
+      "integrity": "73466a24bd6eb3b527cde18e59ca5543890ddacb4312fc0bc7504d28a7e57a38"
+    },
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "npm": {
+    "@types/node@22.12.0": {
+      "integrity": "sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.20.0": {
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@types/crypto-js@~4.2.2/enc-hex.d.ts": "https://esm.sh/@types/crypto-js@4.2.2/enc-hex.d.ts",
+    "https://esm.sh/@types/crypto-js@~4.2.2/sha1.d.ts": "https://esm.sh/@types/crypto-js@4.2.2/sha1.d.ts",
+    "https://esm.sh/@upstash/redis": "https://esm.sh/@upstash/redis@1.34.4",
+    "https://esm.sh/crypto-js@^4.2.0/enc-hex?target=denonext": "https://esm.sh/crypto-js@4.2.0/enc-hex?target=denonext",
+    "https://esm.sh/crypto-js@^4.2.0/sha1?target=denonext": "https://esm.sh/crypto-js@4.2.0/sha1?target=denonext",
+    "https://esm.sh/gpt-tokenizer": "https://esm.sh/gpt-tokenizer@2.8.1",
+    "https://esm.sh/gpt-tokenizer/model/gpt-4o": "https://esm.sh/gpt-tokenizer@2.8.1/model/gpt-4o",
+    "https://esm.sh/gpt-tokenizer/model/o200k_base": "https://esm.sh/gpt-tokenizer@2.8.1/model/o200k_base"
+  },
+  "remote": {
+    "https://esm.sh/@upstash/redis@1.34.4": "ebbd65a761c2dffca7970f66d186029869779a583a59048916769bdb999d5a0e",
+    "https://esm.sh/@upstash/redis@1.34.4/denonext/chunk-T6D4KAGH.mjs": "03d2423d04e163db97542f41871cced3f9bd77db052c11f96f5183328a31d175",
+    "https://esm.sh/@upstash/redis@1.34.4/denonext/redis.mjs": "de48b135ddf3cbbebe9d2570dde2ff3d2da2eb03d1946730ed93203db2f1a0ec",
+    "https://esm.sh/crypto-js@4.2.0/denonext/enc-hex.mjs": "d9b57ee9b036cb023e8c87f0063f616405c34f166327e6bc561ce36059eabfa6",
+    "https://esm.sh/crypto-js@4.2.0/denonext/sha1.mjs": "7c20a11f45d6390bfd5babfb769457ad42775bca38d140dc497e548a94f7745b",
+    "https://esm.sh/crypto-js@4.2.0/enc-hex?target=denonext": "e7bbfb366ad3cbea21a865f646e2dd1109398362c4779291bffb03bb6332310f",
+    "https://esm.sh/crypto-js@4.2.0/sha1?target=denonext": "60b6e4ce5897826e9f61dcc2a0cbf11a9431ef81cad376f7f1f2810c615e4e68",
+    "https://esm.sh/gpt-tokenizer@2.8.1": "933085b9efd4a288c8aa274aaf4a9c6fbbff6eec124d1ca0013630e01c2defd7",
+    "https://esm.sh/gpt-tokenizer@2.8.1/denonext/gpt-tokenizer.mjs": "822efaa2b10830fe8e26a91534aabfa31bd3a4dd51acdb76be590377852939df",
+    "https://esm.sh/gpt-tokenizer@2.8.1/denonext/model/gpt-4o.mjs": "add32a0a3610a773853ca97432ec82a322ddc1d8eeaca60b3a2459c504eadddb",
+    "https://esm.sh/gpt-tokenizer@2.8.1/model/gpt-4o": "a925db9a8bb2633b762296353e02436fc7ca8bec1f22877932f940db1b6a7be0"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
