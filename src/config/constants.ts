@@ -26,6 +26,6 @@ export const EXTERNAL_API = {
 
 // Redis 配置
 export const REDIS_CONFIG = {
-  URL: 'https://.upstash.io',
-  TOKEN: '',
+  URL: 'https://first-monkey-16266.upstash.io',
+  TOKEN: 'AT-KAAIjcDEwY2M3NDQyYjA1YzU0NjkzYjM0OGEzMmQ0YzA4NWJhZXAxMA',
 };
